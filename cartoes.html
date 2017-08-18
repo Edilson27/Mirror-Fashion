@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            body {
+                font-size: 16px;
+                line-height: 1.2em;
+            }
+            .main {                
+                width: 960px;
+                margin: 0 auto;
+                background: #98FB98;
+            }
+            
+            header, nav, footer, section, article, div {
+                box-sizing: border-box;
+            }
+            
+            .cartao {
+                display: inline-flex;
+                flex-wrap: wrap;
+                background: #FFC0CB;
+                width: 100%;
+                align-items: center;
+            }
+            
+            .img-redondo img{                  
+                border-radius: 50%;
+                border: 8px solid red;
+                width: 100px;
+                height: 100px;                
+            }           
+                    
+            .img-redondo {
+                order: 0;
+                width: 25%;
+                
+            }
+            
+            .img-redondo a{
+                text-decoration: none;
+                text-align: center;
+            }
+            
+            .texto {
+                order:1; 
+                width: 75%;
+                text-align: left;
+                text-align: justify;
+                padding-right: 20px;
+            }
+            
+            .cartao div {
+                display: inline-flex;
+            }
+            
+            .box {
+                height: 100%;   
+                flex-wrap: wrap;
+                
+            }
+            
+            section.cartao {
+                margin-bottom: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <section class="cartao">
+                <div class="box img-redondo">    
+                     <a href="#">
+                        <figure>
+                            <img src="images/visa.jpg">
+                            <figcaption>Visa</figcaption>                      
+                        </figure>   
+                    </a>
+                </div>
+                
+                <div class="box texto">
+                    <p>Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium</p>
+                </div>
+            </section> <!-- Fim Primeira section -->
+            
+            <section class="cartao">
+                <div class="box img-redondo">                    
+                    <a href="#">
+                        <figure>
+                            <img src="images/nubank.png">
+                            <figcaption>NuBank</figcaption>                      
+                        </figure>   
+                    </a>
+                </div>
+                
+                <div class="box texto">
+                    <p>Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium</p>
+                </div>
+            </section> <!-- Fim Primeira section -->
+            
+            <section class="cartao">
+                <div class="box img-redondo">                    
+                    <a href="#">
+                        <figure>
+                            <img src="images/master.jpg">
+                            <figcaption>Master</figcaption>                      
+                        </figure>   
+                    </a>                   
+                </div>
+                
+                <div class="box texto">
+                    <p>Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium</p>
+                </div>
+            </section>
+        </div><!-- Fim .main -->
+    </body>
+</html>

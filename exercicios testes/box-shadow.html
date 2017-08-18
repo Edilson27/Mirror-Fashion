@@ -1,0 +1,64 @@
+<!docytpe html>
+<html>
+	<head>
+		<title>Testando CSS3</title>
+		<link rel="stylesheet" href="style.css">
+		<style>
+			.quadrado{
+				width: 80px;
+				height: 80px;
+				background: green;
+				box-shadow: 20px 20px 20px red;
+			}
+			.quadrado2{
+				margin-top: 50px;
+				width: 80px;
+				height: 80px;
+				background-color: chartreuse;
+				box-shadow: inset 0 0 40px black;
+			}
+			
+			.linear {
+				margin-top: 20px;
+				width: 80px;
+				height: 80px;
+				background: linear-gradient(yellow, blue);
+				background: radial-gradient(white, blue);  /*radial*/
+				background: linear-gradient(45deg, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%); /*gradientes com angulações diferentes e diversas paradas de cores*/
+			}
+			
+			.linear2 {
+				margin-top: 20px;
+				width: 80px;
+				height: 80px;
+				background: linear-gradient(to bottom, white, blue);
+			}
+			
+			.linear {
+				background: -webkit-linear-gradient(top, white, blue);
+				background: -moz-linear-gradient(top, white, blue);
+				background: -o-linear-gradient(top, white, blue);
+			}
+			
+			.text {
+				width: 80px;
+				height: 80px;
+				margin-top: 20px;
+				border-radius: 50%;
+				background: #f3c5bd; /* Old browsers */
+				background: -moz-linear-gradient(top, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="quadrado"></div>
+		<div class="quadrado2"></div>
+		<div class="linear"></div>
+		<div class="linear2"></div>
+		<div class="text"></div>
+	</body>
+</html>

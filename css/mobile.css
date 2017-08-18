@@ -1,0 +1,105 @@
+body {
+	width: auto;
+}
+
+.container {
+	width: 96%;
+}
+
+header h1 {
+	text-align: center;
+	background-image: none;
+}
+
+.header h1 img{
+	max-width: 50%;
+	
+}
+
+
+.sacola {
+	display: none;
+	
+}
+
+.menu_opcoes {
+	position: static;
+	text-align: center;
+}
+
+.menu_opcoes ul li{
+	display: inline-block;
+	margin: 5px;
+}
+
+.busca,
+.menu-departamentos,
+.destaque img {
+	margin-right: 0;
+	width: 100%;
+}
+
+destaque {
+	width: 96%;
+}
+.destaque2 {
+	width: 100%;
+}
+
+.destaque2 img{
+	width: 100%;
+}
+
+.painel {
+	width: auto;
+}
+
+.painel li {
+	width: 30%;
+}
+
+.painel img {
+	width: 80%;
+}
+
+.play,
+.pause {
+	top: auto;
+	right: auto;
+	left: 10px;
+	bottom: 10px;
+}
+
+
+/*-------------------------SOBRE-------------------------------------*/
+section p {
+	text-align: justify;
+	width: auto;
+	font-size: 1.5em;
+	padding: 0 15px;
+}
+
+figure img {
+	width: 100%;
+}
+
+#centro-distribuicao {
+	width: auto;
+}
+
+#familia-pelho {
+    float: none;
+    margin: 0 0 10px 0px;
+}
+
+ul#dif {
+	list-style: circle;
+	text-align: justify;
+	font-size: 1.5em;
+	margin: 10px;
+}
+
+ul#dif li {
+	display: block;
+}
+

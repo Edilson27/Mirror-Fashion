@@ -1,0 +1,44 @@
+<!docytpe html>
+<html>
+	<head>
+		<title>Transition CSS3</title>
+		<link rel="stylesheet" href="style.css">
+		<style>
+			#teste {
+				width: 80px;
+				height: 80px;
+				background: blue;
+				position: relative;
+				top: 0;
+			}
+			
+			#teste:hover {
+				top: 30px;
+				transition: top 2s ease;
+			}
+			
+			#teste {
+				position: relative;
+				top: 0;
+				color: white;
+			}
+			#teste:hover {
+				top: 30px;
+				color: red;
+				transition: top 2s, color 1s ease;
+			}
+			
+			#teste:hover {
+				-webkit-transition: all 2s ease;
+				-moz-transition: all 2s ease;
+				-o-transition: all 2s ease;
+				transition: all 2s ease;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="teste"></div>
+			
+	</body>
+</html>

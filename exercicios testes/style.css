@@ -1,0 +1,92 @@
+/*Seleciona os irmão de h2*/
+h2 ~ p {
+	font-style: italic;
+}
+
+/*Seleciona Irmão adjacentes(primeiro paragrafo depois do h2)*/
+h2 + p {
+	font-variant: small-caps;
+}
+
+/*pega todos*/
+h1 {
+	color: blue;
+}
+
+article h1 {
+	color: red;
+}
+
+/* vai pegar só o h1 principal, filho direto de article e não os netos */
+article > h1 {
+	color: blue;
+}
+
+/*negando o que tem a classe .especial*/
+p:not(.especial) {
+	color: gray;
+}
+
+/*Seleciona o primeiro item da lista*/
+li:first-child {
+	color: red;
+}
+
+/*Seleciona o último item da lista*/
+li:last-child {
+	color: blue;
+}
+
+/*Seleciona o terceiro item da lista*/
+li:nth-child(3) { 
+	color: brown; 
+	font-weight: bold;
+}
+
+li:nth-child(2n) { 
+	color: green; 
+} /* elementos pares */
+
+li:nth-child(2n+1) { 
+	color: blue; 
+} /* elementos impares */
+
+/**/
+a:hover {
+	background-color:#FF00FF;
+}
+
+/* seleciona todas as âncoras que têm o atributo "href", ou seja, links */
+a:link {
+	background-color:#FF0000;
+}
+
+/* seleciona todos os links cujo valor de "href" é um endereço já visitado */
+a:visited {
+	background-color:#00FF00;
+}
+
+/* seleciona o link no exato momento em que clicamos nele */
+a:active {
+	background-color:#0000FF;
+}
+
+p:first-letter {
+	font-size: 200%;
+}
+
+/*seleciona a primeira linha apenas em um texto grande*/
+p:first-line {
+	font-style: italic;
+}
+
+a:before {
+	content: '[ ';
+} 
+a:after {
+	content: ' ]';
+}
+
+a[href^=http://]:after {
+	content: '(externo)';
+}
