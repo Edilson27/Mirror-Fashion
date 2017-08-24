@@ -92,7 +92,7 @@
                     </li>
                     <!-- Terceiro Produto -->
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura11.png">
                                 <figcaption>Fuzz Cardigan por R$ 169,90</figcaption>
@@ -101,7 +101,7 @@
                     </li>
                     <!-- Quarto Produto -->
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura12.png">
                                 <figcaption>Fuzz Cardigan por R$ 169,90</figcaption>
@@ -110,7 +110,7 @@
                     </li>
                     <!-- Quinto Produto -->
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura13.png">
                                 <figcaption>Fuzz Cardigan por R$ 169,90</figcaption>
@@ -119,7 +119,7 @@
                     </li>
                     <!-- Sexto Produto -->
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura15.png">
                                 <figcaption>Fuzz Cardigan por R$ 169,90</figcaption>
@@ -134,7 +134,7 @@
                 <ol>
                     <!-- Primeiro Produto -->
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura1.png">
                                 <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -143,7 +143,7 @@
                     </li>
                     <!-- Segundo Produto -->
                      <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura10.png">
                                 <figcaption>Fuzz Cardigan por R$ 169,90</figcaption>
@@ -152,7 +152,7 @@
                     </li>
                     <!-- Terceiro Produto -->
                     <li>
-                        <a href="produto.html">
+                        <a href="produto.php">
                             <figure>
                                 <img src="img/produtos/miniatura15.png">
                                 <figcaption>Fuzz Cardigan por R$ 169,90</figcaption>

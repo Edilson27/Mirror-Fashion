@@ -1,5 +1,8 @@
 <html>	
 	<head>
+		<link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/mobile2.css">
+		<link rel="stylesheet" href="css/estilos.css"> 
 		<link rel="stylesheet" href="css/produto.css">
 	</head>
 	<body>
